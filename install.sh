@@ -25,3 +25,10 @@ git clone https://github.com/kien/ctrlp.vim.git
 
 cd ~/.vim/colors
 wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
+
+cd ~/.vim/bundle
+git clone https://github.com/vim-scripts/pep8
+pip install pep8
+
+# http://blog.mattes-groeger.de/vim-bookmarks/
+git clone https://github.com/MattesGroeger/vim-bookmarks.git ~/.vim/bundle/vim-bookmarks
